@@ -24,4 +24,15 @@ public class Op {
         }return soma;
 
     }
+    public int repitacaoArray (int []a, int numerParaSerEncontrado){
+        int repitacao =0;
+        for (int i = 0;i<a.length;i++){
+            if(a[i] == numerParaSerEncontrado){
+                repitacao++;
+
+            }
+
+
+        }return repitacao;
+    }
 }
